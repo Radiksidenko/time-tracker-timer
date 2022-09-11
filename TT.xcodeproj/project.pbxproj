@@ -15,6 +15,8 @@
 		7CBC1B4F28880136005C8A5D /* TTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC1B4E28880136005C8A5D /* TTTests.swift */; };
 		7CBC1B5928880136005C8A5D /* TTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC1B5828880136005C8A5D /* TTUITests.swift */; };
 		7CBC1B5B28880136005C8A5D /* TTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC1B5A28880136005C8A5D /* TTUITestsLaunchTests.swift */; };
+		7CBC1B69288802BA005C8A5D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC1B68288802BA005C8A5D /* Timer.swift */; };
+		7CBC1B6B28880379005C8A5D /* Int+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC1B6A28880379005C8A5D /* Int+Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7CBC1B5428880136005C8A5D /* TTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBC1B5828880136005C8A5D /* TTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTUITests.swift; sourceTree = "<group>"; };
 		7CBC1B5A28880136005C8A5D /* TTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CBC1B68288802BA005C8A5D /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		7CBC1B6A28880379005C8A5D /* Int+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Time.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,11 @@
 		7CBC1B3828880135005C8A5D /* TT */ = {
 			isa = PBXGroup;
 			children = (
+				7CBC1B6D28880388005C8A5D /* Presentation */,
+				7CBC1B6C2888037D005C8A5D /* Extensions */,
+				7CBC1B67288802A5005C8A5D /* Components */,
 				7CBC1B3928880135005C8A5D /* AppDelegate.swift */,
-				7CBC1B3B28880135005C8A5D /* ViewController.swift */,
 				7CBC1B4028880136005C8A5D /* Assets.xcassets */,
-				7CBC1B4228880136005C8A5D /* Main.storyboard */,
 				7CBC1B4528880136005C8A5D /* TT.entitlements */,
 				7CBC1B3D28880135005C8A5D /* TT.xcdatamodeld */,
 			);
@@ -122,6 +127,31 @@
 				7CBC1B5A28880136005C8A5D /* TTUITestsLaunchTests.swift */,
 			);
 			path = TTUITests;
+			sourceTree = "<group>";
+		};
+		7CBC1B67288802A5005C8A5D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7CBC1B68288802BA005C8A5D /* Timer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7CBC1B6C2888037D005C8A5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CBC1B6A28880379005C8A5D /* Int+Time.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7CBC1B6D28880388005C8A5D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7CBC1B3B28880135005C8A5D /* ViewController.swift */,
+				7CBC1B4228880136005C8A5D /* Main.storyboard */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +286,9 @@
 			files = (
 				7CBC1B3F28880135005C8A5D /* TT.xcdatamodeld in Sources */,
 				7CBC1B3C28880135005C8A5D /* ViewController.swift in Sources */,
+				7CBC1B6B28880379005C8A5D /* Int+Time.swift in Sources */,
 				7CBC1B3A28880135005C8A5D /* AppDelegate.swift in Sources */,
+				7CBC1B69288802BA005C8A5D /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
